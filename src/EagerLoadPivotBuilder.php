@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 
-class EagerLoadPivotBuilder extends Builder
+class EagerLoadPivotBuilder extends \Kalnoy\Nestedset\QueryBuilder
 {
     protected static $knownPivotAccessors = [
         'pivot',
